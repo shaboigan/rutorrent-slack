@@ -1,0 +1,9 @@
+plugin.description: Sends a slack webhook notification when a torrent event is caught.
+plugin.author: Shaboigan
+plugin.version: 1
+plugin.runlevel: 11
+rtorrent.remote: error
+rtorrent.external.error: php
+rtorrent.php.error: slack.php,push.php
+php.extensions.error: json
+plugin.help:
